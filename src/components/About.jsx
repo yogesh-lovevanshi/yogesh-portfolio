@@ -12,7 +12,7 @@ const About = () => {
       <div className="absolute top-0 right-0 w-96 h-96 bg-blue-500/5 rounded-full blur-3xl"></div>
       <div className="absolute bottom-0 left-0 w-96 h-96 bg-purple-500/5 rounded-full blur-3xl"></div>
       
-      <div className="max-w-6xl mx-auto relative z-10">
+      <div className="max-w-6xl mx-auto relative z-10 px-2 md:px-0">
         <motion.div
           ref={ref}
           initial={{ opacity: 0, y: 50 }}
@@ -23,12 +23,12 @@ const About = () => {
             About <span className="text-blue-500">Me</span>
           </h2>
 
-          <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
+          <div className="grid md:grid-cols-2 gap-6 md:gap-12 items-center">
             <motion.div
               initial={{ opacity: 0, x: -50 }}
               animate={isInView ? { opacity: 1, x: 0 } : {}}
               transition={{ delay: 0.2 }}
-              className="space-y-4"
+              className="space-y-4 px-2 md:px-0"
             >
               <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
                 I'm a Full Stack Java Developer with hands-on experience building scalable RESTful web applications
@@ -52,7 +52,7 @@ const About = () => {
               className="relative"
             >
               <div className="absolute inset-0 bg-gradient-to-br from-blue-600 to-purple-600 rounded-2xl blur-xl opacity-20"></div>
-              <div className="relative bg-gradient-to-br from-blue-600 via-purple-600 to-indigo-700 p-4 md:p-8 rounded-2xl shadow-2xl max-w-full overflow-hidden">
+              <div className="relative bg-gradient-to-br from-blue-600 via-purple-600 to-indigo-700 p-4 md:p-8 rounded-2xl shadow-2xl">
                 <div className="space-y-6 md:space-y-8 text-white">
                   <div className="group hover:scale-105 transition-transform duration-300">
                     <div className="flex items-start space-x-3 md:space-x-4">
