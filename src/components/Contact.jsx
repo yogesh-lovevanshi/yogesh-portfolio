@@ -60,45 +60,45 @@ const Contact = () => {
             Let's discuss your next project or opportunity
           </p>
 
-          <div className="grid md:grid-cols-2 gap-12">
+          <div className="grid md:grid-cols-2 gap-8 md:gap-12">
             <motion.div
               initial={{ opacity: 0, x: -50 }}
               animate={isInView ? { opacity: 1, x: 0 } : {}}
               transition={{ delay: 0.2 }}
-              className="bg-white dark:bg-gray-900 p-8 rounded-2xl shadow-xl border border-gray-100 dark:border-gray-800"
+              className="bg-white dark:bg-gray-900 p-6 md:p-8 rounded-2xl shadow-xl border border-gray-100 dark:border-gray-800"
             >
-              <h3 className="text-2xl font-bold mb-6">Let's work together!</h3>
-              <p className="text-gray-600 dark:text-gray-400 mb-8">
+              <h3 className="text-xl md:text-2xl font-bold mb-4 md:mb-6">Let's work together!</h3>
+              <p className="text-gray-600 dark:text-gray-400 mb-6 md:mb-8 text-sm md:text-base">
                 I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
               </p>
 
-              <div className="space-y-6">
-                <div className="flex items-center space-x-4 p-4 bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/20 dark:to-purple-900/20 rounded-xl hover:scale-105 transition-transform">
-                  <div className="p-3 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg">
-                    <FiMail className="text-white" size={24} />
+              <div className="space-y-4 md:space-y-6">
+                <div className="flex items-center space-x-3 md:space-x-4 p-3 md:p-4 bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/20 dark:to-purple-900/20 rounded-xl hover:scale-105 transition-transform">
+                  <div className="p-2 md:p-3 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex-shrink-0">
+                    <FiMail className="text-white" size={20} />
                   </div>
-                  <span className="font-medium">yogesh11102@gmail.com</span>
+                  <span className="font-medium text-sm md:text-base break-all">yogesh11102@gmail.com</span>
                 </div>
-                <div className="flex items-center space-x-4 p-4 bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/20 dark:to-purple-900/20 rounded-xl hover:scale-105 transition-transform">
-                  <div className="p-3 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg">
-                    <FiPhone className="text-white" size={24} />
+                <div className="flex items-center space-x-3 md:space-x-4 p-3 md:p-4 bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/20 dark:to-purple-900/20 rounded-xl hover:scale-105 transition-transform">
+                  <div className="p-2 md:p-3 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex-shrink-0">
+                    <FiPhone className="text-white" size={20} />
                   </div>
-                  <span className="font-medium">+91 777-292-2584</span>
+                  <span className="font-medium text-sm md:text-base">+91 777-292-2584</span>
                 </div>
-                <div className="flex items-center space-x-4 p-4 bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/20 dark:to-purple-900/20 rounded-xl hover:scale-105 transition-transform">
-                  <div className="p-3 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg">
-                    <FiMapPin className="text-white" size={24} />
+                <div className="flex items-center space-x-3 md:space-x-4 p-3 md:p-4 bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/20 dark:to-purple-900/20 rounded-xl hover:scale-105 transition-transform">
+                  <div className="p-2 md:p-3 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex-shrink-0">
+                    <FiMapPin className="text-white" size={20} />
                   </div>
-                  <span className="font-medium">Pune, Maharashtra</span>
+                  <span className="font-medium text-sm md:text-base">Pune, Maharashtra</span>
                 </div>
               </div>
 
-              <div className="flex space-x-4 mt-8">
-                <a href="https://github.com/yogesh-lovevanshi" target="_blank" rel="noopener noreferrer" className="p-4 bg-gradient-to-br from-gray-100 to-gray-200 dark:from-gray-800 dark:to-gray-900 rounded-xl hover:scale-110 hover:shadow-xl transition-all duration-300">
-                  <FiGithub size={28} />
+              <div className="flex space-x-4 mt-6 md:mt-8">
+                <a href="https://github.com/yogesh-lovevanshi" target="_blank" rel="noopener noreferrer" className="p-3 md:p-4 bg-gradient-to-br from-gray-100 to-gray-200 dark:from-gray-800 dark:to-gray-900 rounded-xl hover:scale-110 hover:shadow-xl transition-all duration-300">
+                  <FiGithub size={24} />
                 </a>
-                <a href="https://linkedin.com/in/yogesh-lovevanshi-4ba33b22b/" target="_blank" rel="noopener noreferrer" className="p-4 bg-gradient-to-br from-blue-500 to-blue-600 text-white rounded-xl hover:scale-110 hover:shadow-xl transition-all duration-300">
-                  <FiLinkedin size={28} />
+                <a href="https://linkedin.com/in/yogesh-lovevanshi-4ba33b22b/" target="_blank" rel="noopener noreferrer" className="p-3 md:p-4 bg-gradient-to-br from-blue-500 to-blue-600 text-white rounded-xl hover:scale-110 hover:shadow-xl transition-all duration-300">
+                  <FiLinkedin size={24} />
                 </a>
               </div>
             </motion.div>
@@ -108,41 +108,41 @@ const Contact = () => {
               animate={isInView ? { opacity: 1, x: 0 } : {}}
               transition={{ delay: 0.4 }}
               onSubmit={handleSubmit}
-              className="bg-white dark:bg-gray-900 p-8 rounded-2xl shadow-xl border border-gray-100 dark:border-gray-800"
+              className="bg-white dark:bg-gray-900 p-6 md:p-8 rounded-2xl shadow-xl border border-gray-100 dark:border-gray-800"
             >
-              <div className="mb-6">
-                <label className="block mb-2 font-semibold">Name</label>
+              <div className="mb-4 md:mb-6">
+                <label className="block mb-2 font-semibold text-sm md:text-base">Name</label>
                 <input
                   type="text"
                   required
                   value={formData.name}
                   onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                  className="w-full px-4 py-3 rounded-lg border dark:border-gray-700 bg-gray-50 dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full px-3 py-2 md:px-4 md:py-3 rounded-lg border dark:border-gray-700 bg-gray-50 dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm md:text-base"
                 />
               </div>
-              <div className="mb-6">
-                <label className="block mb-2 font-semibold">Email</label>
+              <div className="mb-4 md:mb-6">
+                <label className="block mb-2 font-semibold text-sm md:text-base">Email</label>
                 <input
                   type="email"
                   required
                   value={formData.email}
                   onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                  className="w-full px-4 py-3 rounded-lg border dark:border-gray-700 bg-gray-50 dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full px-3 py-2 md:px-4 md:py-3 rounded-lg border dark:border-gray-700 bg-gray-50 dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm md:text-base"
                 />
               </div>
-              <div className="mb-6">
-                <label className="block mb-2 font-semibold">Message</label>
+              <div className="mb-4 md:mb-6">
+                <label className="block mb-2 font-semibold text-sm md:text-base">Message</label>
                 <textarea
                   required
-                  rows="5"
+                  rows="4"
                   value={formData.message}
                   onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                  className="w-full px-4 py-3 rounded-lg border dark:border-gray-700 bg-gray-50 dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full px-3 py-2 md:px-4 md:py-3 rounded-lg border dark:border-gray-700 bg-gray-50 dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm md:text-base"
                 ></textarea>
               </div>
               <button
                 type="submit"
-                className="w-full px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-xl font-semibold hover:shadow-2xl hover:scale-105 transition-all duration-300 relative overflow-hidden group"
+                className="w-full px-6 py-3 md:px-8 md:py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-xl font-semibold hover:shadow-2xl hover:scale-105 transition-all duration-300 relative overflow-hidden group text-sm md:text-base"
               >
                 <span className="relative z-10">Send Message</span>
                 <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-pink-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
