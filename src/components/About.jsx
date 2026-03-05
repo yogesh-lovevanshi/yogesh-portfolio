@@ -23,7 +23,7 @@ const About = () => {
             About <span className="text-blue-500">Me</span>
           </h2>
 
-          <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
             <motion.div
               initial={{ opacity: 0, x: -50 }}
               animate={isInView ? { opacity: 1, x: 0 } : {}}
@@ -52,7 +52,7 @@ const About = () => {
               className="relative"
             >
               <div className="absolute inset-0 bg-gradient-to-br from-blue-600 to-purple-600 rounded-2xl blur-xl opacity-20"></div>
-              <div className="relative bg-gradient-to-br from-blue-600 via-purple-600 to-indigo-700 p-6 md:p-8 rounded-2xl shadow-2xl">
+              <div className="relative bg-gradient-to-br from-blue-600 via-purple-600 to-indigo-700 p-4 md:p-8 rounded-2xl shadow-2xl max-w-full overflow-hidden">
                 <div className="space-y-6 md:space-y-8 text-white">
                   <div className="group hover:scale-105 transition-transform duration-300">
                     <div className="flex items-start space-x-3 md:space-x-4">
